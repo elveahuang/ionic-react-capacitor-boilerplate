@@ -12,7 +12,7 @@ export default ({ command, mode }) => {
             port: 8081,
         },
         build: {
-            outDir: env.VITE_APP_DIST ?? 'dist',
+            outDir: env.VITE_APP_DIST ?? 'www',
         },
         plugins: [react(), tsconfigPaths()],
     });
