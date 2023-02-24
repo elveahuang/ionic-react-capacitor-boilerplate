@@ -15,6 +15,8 @@ specifiers:
   '@types/node': ^18.14.1
   '@types/react': ^18.0.28
   '@types/react-dom': ^18.0.11
+  '@types/react-router': ^5.1.20
+  '@types/react-router-dom': ^5.3.3
   '@typescript-eslint/eslint-plugin': ^5.53.0
   '@typescript-eslint/parser': ^5.53.0
   '@vitejs/plugin-react': ^3.1.0
@@ -59,6 +61,8 @@ devDependencies:
   '@types/node': 18.14.1
   '@types/react': 18.0.28
   '@types/react-dom': 18.0.11
+  '@types/react-router': 5.1.20
+  '@types/react-router-dom': 5.3.3
   '@typescript-eslint/eslint-plugin': 5.53.0_ny4s7qc6yg74faf3d6xty2ofzy
   '@typescript-eslint/parser': 5.53.0_7kw3g6rralp5ps6mg3uyzz6azm
   '@vitejs/plugin-react': 3.1.0_vite@4.1.4
@@ -2785,6 +2789,10 @@ packages:
       '@types/node': 18.14.1
     dev: true
 
+  /@types/history/4.7.11:
+    resolution: {integrity: sha512-qjDJRrmvBMiTx+jyLxvLfJU7UznFuokDv4f3WRuriHKERccVpFU+8XMQUAbDzoiJCsmexxRExQeMwwCdamSKDA==}
+    dev: true
+
   /@types/html-minifier-terser/6.1.0:
     resolution: {integrity: sha512-oh/6byDPnL1zeNXFrDXFLyZjkr1MsBG667IM792caf1L2UPOOMf65NFzjUH/ltyfwjAGfs1rsX1eftK0jC/KIg==}
     dev: true
@@ -2854,6 +2862,21 @@ packages:
   /@types/react-dom/18.0.11:
     resolution: {integrity: sha512-O38bPbI2CWtgw/OoQoY+BRelw7uysmXbWvw3nLWO21H1HSh+GOlqPuXshJfjmpNlKiiSDG9cc1JZAaMmVdcTlw==}
     dependencies:
+      '@types/react': 18.0.28
+    dev: true
+
+  /@types/react-router-dom/5.3.3:
+    resolution: {integrity: sha512-kpqnYK4wcdm5UaWI3fLcELopqLrHgLqNsdpHauzlQktfkHL3npOSwtj1Uz9oKBAzs7lFtVkV8j83voAz2D8fhw==}
+    dependencies:
+      '@types/history': 4.7.11
+      '@types/react': 18.0.28
+      '@types/react-router': 5.1.20
+    dev: true
+
+  /@types/react-router/5.1.20:
+    resolution: {integrity: sha512-jGjmu/ZqS7FjSH6owMcD5qpq19+1RS9DeVRqfl1FeBMxTDQAGwlMWOcs52NDoXaNKyG3d1cYQFMs9rCrb88o9Q==}
+    dependencies:
+      '@types/history': 4.7.11
       '@types/react': 18.0.28
     dev: true
 
