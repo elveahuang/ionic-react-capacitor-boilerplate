@@ -1,2 +1,1 @@
-# ionic-react-capacitor-boilerplate
-ionic-react-capacitor-boilerplate
+# 多终端应用示例
